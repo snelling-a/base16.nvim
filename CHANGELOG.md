@@ -1,5 +1,17 @@
 # Changelog
 
+## [2.12.0](https://github.com/snelling-a/base16.nvim/compare/v2.11.1...v2.12.0) (2024-09-27)
+
+
+### Features
+
+* update color schemes ([97fc740](https://github.com/snelling-a/base16.nvim/commit/97fc740cf9b1e72765db72c3e6504af88ccd65ee))
+
+
+### Miscellaneous
+
+* update build script ([7269777](https://github.com/snelling-a/base16.nvim/commit/7269777ccecf09cb0df69a49a5beaf3463d17905))
+
 ## [2.11.1](https://github.com/snelling-a/base16.nvim/compare/v2.11.0...v2.11.1) (2024-02-08)
 
 
