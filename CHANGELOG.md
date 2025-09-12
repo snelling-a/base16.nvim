@@ -1,5 +1,18 @@
 # Changelog
 
+## [2.13.0](https://github.com/snelling-a/base16.nvim/compare/v2.12.0...v2.13.0) (2025-09-12)
+
+
+### Features
+
+* update themes ([0267cb7](https://github.com/snelling-a/base16.nvim/commit/0267cb7938ed906d3f1877bd04456caf2e989650))
+
+
+### Bug Fixes
+
+* build script ([88bba7d](https://github.com/snelling-a/base16.nvim/commit/88bba7dcb03ee8701c423793fe813081b4bfcbaf))
+* markdown headings ([28bc917](https://github.com/snelling-a/base16.nvim/commit/28bc917dfa707ab0a7c05d907d9f53554c375c51))
+
 ## [2.12.0](https://github.com/snelling-a/base16.nvim/compare/v2.11.1...v2.12.0) (2024-09-27)
 
 
