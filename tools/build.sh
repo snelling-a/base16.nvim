@@ -60,7 +60,7 @@ generate_lua() {
   echo 'require("base16").setup({'
   for color in base0{0..9} base0{A..F}; do
     value=$(sed -ne 's/'"$color"': "\(.*\)".*/\1/p' "$scheme" | tr -d '[:space:]')
-    printf '\t%s = "%s",\n' "$color" "#$value"
+    printf '\t%s = "%s",\n' "$color" "$value"
   done
   printf '})\n\nvim.g.colors_name = "base16-%s"' "$(basename "$scheme" | cut -d. -f1)"
 }
