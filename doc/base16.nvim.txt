@@ -1,4 +1,4 @@
-*base16.nvim.txt*        For NVIM >v0.8.0        Last change: 2024 November 21
+*base16.nvim.txt*        For NVIM >v0.8.0       Last change: 2025 September 12
 
 ==============================================================================
 Table of Contents                              *base16.nvim-table-of-contents*
@@ -33,6 +33,7 @@ https://user-images.githubusercontent.com/21000943/199322658-ecbf8113-fa4b-409b-
 
 BUILTIN COLORSCHEMES            *base16.nvim-base16.nvim-builtin-colorschemes*
 
+- 0x96f
 - 3024
 - apathy
 - apprentice
@@ -87,6 +88,14 @@ BUILTIN COLORSCHEMES            *base16.nvim-base16.nvim-builtin-colorschemes*
 - catppuccin-macchiato
 - catppuccin-mocha
 - chalk
+- charcoal-dark
+- charcoal-light
+- chicago-day
+- chicago-night
+- chinoiserie-midnight
+- chinoiserie-morandi
+- chinoiserie-night
+- chinoiserie
 - circus
 - classic-dark
 - classic-light
@@ -110,6 +119,7 @@ BUILTIN COLORSCHEMES            *base16.nvim-base16.nvim-builtin-colorschemes*
 - deep-oceanic-next
 - default-dark
 - default-light
+- digital-rain
 - dirtysea
 - dracula
 - edge-dark
@@ -128,11 +138,14 @@ BUILTIN COLORSCHEMES            *base16.nvim-base16.nvim-builtin-colorschemes*
 - eva
 - evenok-dark
 - everforest-dark-hard
+- everforest-dark-medium
+- everforest-dark-soft
 - everforest
 - flat
 - framer
 - fruit-soda
 - gigavolt
+- github-dark
 - github
 - google-dark
 - google-light
@@ -145,9 +158,11 @@ BUILTIN COLORSCHEMES            *base16.nvim-base16.nvim-builtin-colorschemes*
 - gruvbox-dark-medium
 - gruvbox-dark-pale
 - gruvbox-dark-soft
+- gruvbox-dark
 - gruvbox-light-hard
 - gruvbox-light-medium
 - gruvbox-light-soft
+- gruvbox-light
 - gruvbox-material-dark-hard
 - gruvbox-material-dark-medium
 - gruvbox-material-dark-soft
@@ -155,6 +170,7 @@ BUILTIN COLORSCHEMES            *base16.nvim-base16.nvim-builtin-colorschemes*
 - gruvbox-material-light-medium
 - gruvbox-material-light-soft
 - hardcore
+- hardhacker
 - harmonic16-dark
 - harmonic16-light
 - heetch-light
@@ -173,10 +189,12 @@ BUILTIN COLORSCHEMES            *base16.nvim-base16.nvim-builtin-colorschemes*
 - irblack
 - isotope
 - jabuti
+- kanagawa-dragon
 - kanagawa
 - katy
 - kimber
 - lime
+- linux-vt
 - macintosh
 - marrakesh
 - materia
@@ -210,6 +228,12 @@ BUILTIN COLORSCHEMES            *base16.nvim-base16.nvim-builtin-colorschemes*
 - papercolor-light
 - paraiso
 - pasque
+- penumbra-dark-contrast-plus-plus
+- penumbra-dark-contrast-plus
+- penumbra-dark
+- penumbra-light-contrast-plus-plus
+- penumbra-light-contrast-plus
+- penumbra-light
 - phd
 - pico
 - pinky
@@ -288,6 +312,7 @@ BUILTIN COLORSCHEMES            *base16.nvim-base16.nvim-builtin-colorschemes*
 - unikitty-light
 - unikitty-reversible
 - uwunicorn
+- valua
 - vesper
 - vice
 - vulcan
