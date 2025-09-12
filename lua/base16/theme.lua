@@ -290,12 +290,12 @@ function M.load(colors)
 	Highlights["@markup.environment"] = { link = "Macro" }
 	Highlights["@markup.environment.name"] = { link = "Type" }
 	Highlights["@markup.heading"] = { link = "Title" }
-	Highlights["@markup.heading.1.markdown"] = { fg = colors.base08 }
-	Highlights["@markup.heading.2.markdown"] = { fg = colors.base0A }
-	Highlights["@markup.heading.3.markdown"] = { fg = colors.base0D }
-	Highlights["@markup.heading.4.markdown"] = { fg = colors.base09 }
-	Highlights["@markup.heading.5.markdown"] = { fg = colors.base0B }
-	Highlights["@markup.heading.6.markdown"] = { fg = colors.base0E }
+	Highlights["@markup.heading.1.markdown"] = { link = "Title" }
+	Highlights["@markup.heading.2.markdown"] = { fg = colors.base09 }
+	Highlights["@markup.heading.3.markdown"] = { fg = colors.base0A }
+	Highlights["@markup.heading.4.markdown"] = { fg = colors.base0B }
+	Highlights["@markup.heading.5.markdown"] = { fg = colors.base0C }
+	Highlights["@markup.heading.6.markdown"] = { fg = colors.base0F }
 	Highlights["@markup.italic"] = { fg = colors.base09, italic = true }
 	Highlights["@markup.link"] = { fg = colors.base08 }
 	Highlights["@markup.link.url"] = { fg = colors.base09, underline = true }
@@ -344,7 +344,7 @@ function M.load(colors)
 	Highlights["@variable.builtin"] = { fg = colors.base08, italic = true }
 	Highlights["@variable.member"] = { fg = colors.base05 }
 	Highlights["@variable.member.yaml"] = { link = "Constant" }
-	Highlights["@variable.parameter"] = { fg = colors.base0B }
+	Highlights["@variable.parameter"] = { fg = colors.base06 }
 	Highlights.zshKSHFunction = { link = "Function" }
 
 	-- Legacy Highlights {{{
