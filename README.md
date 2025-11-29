@@ -68,6 +68,35 @@ After installation and building, use any colorscheme with:
 
 Replace `<name>` with the desired scheme (e.g., `base16-gruvbox-dark-hard`).
 
+## Configuration
+
+You can configure base16.nvim globally and (optionally) apply a colorscheme by calling:
+
+```lua
+require("base16").setup({
+  colorscheme = "gruvbox-dark-hard", -- or a palette table
+  highlight_overrides = {
+    Normal = { fg = "#ffffff", bg = "#000000" },
+  },
+  disable_groups = { "dap", "lsp", "rainbow", "treesitter" },
+  enable_italic = false,
+  enable_bold = true,
+  export_terminal_colors = false, -- set to true to enable terminal color theming
+  export_base16_globals = false, -- set to true to enable global base16_XX variables
+  diagnostic_underline_style = "undercurl", -- or "underdotted", "underdashed", "underline"
+  spell_underline_style = nil, -- or "undercurl", "underdotted", "underdashed", "underline"
+})
+```
+
+- **colorscheme**: (optional) Name or palette table to apply immediately.
+- **highlight_overrides**: Table of highlight group overrides (applied after the theme).
+- **disable_groups**: List of group categories to skip. Supported: `"dap"`, `"lsp"`, `"rainbow"`, `"treesitter"`, `"cmp"`.
+- **enable_italic**, **enable_bold**: Booleans to globally enable/disable these styles.
+- **export_terminal_colors**: If `true`, sets Neovim's `vim.g.terminal_color_*` variables to match the colorscheme for terminal buffers. Default: `false` (use your terminal emulator's default colors).
+- **export_base16_globals**: If `true`, sets Neovim's `vim.g.base16_00` ... `vim.g.base16_0F` variables globally to the current palette. Default: `false` (does not set globals).
+- **diagnostic_underline_style**: Underline style for diagnostics. Valid values: `"undercurl"`, `"underdotted"`, `"underdashed"`, `"underline"`. Default: `"undercurl"`.
+- **spell_underline_style**: Underline style for spelling. Valid values: `"undercurl"`, `"underdotted"`, `"underdashed"`, `"underline"`. Default: `nil` (no underline).
+
 ## Builtin Colorschemes
 
 See the full gallery of base16 colorschemes at:

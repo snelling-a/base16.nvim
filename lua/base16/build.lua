@@ -70,13 +70,13 @@ local function generate_lua(yaml_path)
 	local out_path = colors_dir .. "/base16-" .. fbname .. ".lua"
 	---@type file*
 	local f = assert(io.open(out_path, "w"))
-	f:write('require("base16").setup({\n')
+	f:write(string.format('vim.g.colors_name = "base16-%s"\n', fbname))
+	f:write('require("base16.theme").load({\n')
 	for i = 0, 15 do
 		local key = string.format("base%02X", i)
 		f:write(string.format('\t%s = "%s",\n', key, palette[key] or ""))
 	end
-	f:write("})\n\n")
-	f:write(string.format('vim.g.colors_name = "base16-%s"\n', fbname))
+	f:write("})\n")
 	f:close()
 end
 
