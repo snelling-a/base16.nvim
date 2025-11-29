@@ -1,5 +1,21 @@
 # Changelog
 
+## [3.0.0](https://github.com/snelling-a/base16.nvim/compare/v2.13.0...v3.0.0) (2025-11-29)
+
+
+### ⚠ BREAKING CHANGES
+
+* remove colors from git history
+
+### perf
+
+* remove colors from git history ([c66b0bf](https://github.com/snelling-a/base16.nvim/commit/c66b0bffd65c3697c84018fbdbbe6fa8c96459b4))
+
+
+### Miscellaneous
+
+* gitignore ([0373b0e](https://github.com/snelling-a/base16.nvim/commit/0373b0ee0494ed619136d2a5500f0acac31448da))
+
 ## [2.13.0](https://github.com/snelling-a/base16.nvim/compare/v2.12.0...v2.13.0) (2025-09-12)
 
 
