@@ -1,4 +1,4 @@
-*base16.nvim.txt*        For NVIM >v0.8.0        Last change: 2025 November 29
+*base16.nvim.txt*        For NVIM >v0.8.0        Last change: 2025 December 22
 
 ==============================================================================
 Table of Contents                              *base16.nvim-table-of-contents*
