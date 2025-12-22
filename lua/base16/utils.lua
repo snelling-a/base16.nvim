@@ -1,3 +1,5 @@
+---@param color string
+---@return nil
 local function parse_color(color)
 	color = color:lower()
 
@@ -16,11 +18,10 @@ local M = {}
 
 ---wrapper for |nvim_set_hl()|
 ---@param group string
----@param colors table|string: Colors Keys: fg,bg,sp,underline,undercurl,nocombine
+---@param colors string|vim.api.keyset.highlight
 function M.highlight(group, colors)
-	local hi = vim.api.nvim_set_hl
 	if type(colors) == "string" then
-		hi(0, group, { link = colors })
+		vim.api.nvim_set_hl(0, group, { link = colors })
 	else
 		local fg = colors.fg and parse_color(colors.fg) or "none"
 		local bg = colors.bg and parse_color(colors.bg) or "none"
