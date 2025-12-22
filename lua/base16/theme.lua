@@ -105,7 +105,7 @@ function M.load(colors)
 	Highlights.WarningMsg = { fg = colors.base08 }
 	Highlights.WildMenu = { fg = colors.base08, bg = colors.base0A }
 	Highlights.WinBar = { fg = colors.base05, bg = colors.base01 }
-	Highlights.WinBarNC = { fg = colors.base04 }
+	Highlights.WinBarNC = { fg = colors.base04, bg = colors.base01 }
 	-- Command-line expressions highlighting
 	-- all other highlight groups have default links :h |expr-highlight|
 	Highlights.NvimInternalError = { fg = colors.base00, bg = colors.base08 }
@@ -483,6 +483,18 @@ function M.load(colors)
 	-- }}}
 
 	Highlights.MiniCompletionActiveParameter = "CursorLine"
+
+	-- MINI-ICONS {{{
+	Highlights.MiniIconsAzure = { fg = colors.base0D }
+	Highlights.MiniIconsBlue = { fg = colors.base0D }
+	Highlights.MiniIconsCyan = { fg = colors.base0C }
+	Highlights.MiniIconsGreen = { fg = colors.base0B }
+	Highlights.MiniIconsGrey = { fg = colors.base06 }
+	Highlights.MiniIconsOrange = { fg = colors.base09 }
+	Highlights.MiniIconsPurple = { fg = colors.base0E }
+	Highlights.MiniIconsRed = { fg = colors.base08 }
+	Highlights.MiniIconsYellow = { fg = colors.base0A }
+	-- }}}
 
 	-- COPILOT {{{
 	Highlights.CopilotSuggestion = { link = "Comment" }
