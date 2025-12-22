@@ -1,5 +1,13 @@
 # Changelog
 
+## [3.1.0](https://github.com/snelling-a/base16.nvim/compare/v3.0.0...v3.1.0) (2025-12-22)
+
+
+### Features
+
+* configuration ([3f99ed7](https://github.com/snelling-a/base16.nvim/commit/3f99ed71fb2c43d8316037fc313388729788a35f))
+* mini icons ([4d26d51](https://github.com/snelling-a/base16.nvim/commit/4d26d51fdb34f1017442200b65860bdc76d03d99))
+
 ## [3.0.0](https://github.com/snelling-a/base16.nvim/compare/v2.13.0...v3.0.0) (2025-11-29)
 
 
